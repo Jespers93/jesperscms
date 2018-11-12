@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="jesperstk">
+  <component name="PublishConfigData" autoUpload="Always" serverName="jesperstk" uploadOnCheckin="db5d4120-7832-4c96-a94b-6b2064999a8b">
     <serverData>
       <paths name="jesperstk">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath path="/cgi-bin" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="jesperstk" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
